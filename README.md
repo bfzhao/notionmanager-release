@@ -13,10 +13,10 @@ Choose the file that matches your operating system:
 
 | Platform | File | Notes |
 |----------|------|-------|
-| **Windows** | [`NotionManager.Setup.exe`](https://github.com/bfzhao/notionmanager-release/releases/latest/download/NotionManager.Setup.exe) | Installer (recommended) |
-| | [`NotionManager.exe`](https://github.com/bfzhao/notionmanager-release/releases/latest/download/NotionManager.exe) | Portable (no install needed) |
-| **macOS (Apple Silicon)** | [`NotionManager-arm64.dmg`](https://github.com/bfzhao/notionmanager-release/releases/latest/download/NotionManager-arm64.dmg) | For M1/M2/M3 Macs |
-| **Linux** | [`NotionManager.AppImage`](https://github.com/bfzhao/notionmanager-release/releases/latest/download/NotionManager.AppImage) | Universal, no install needed |
+| **Windows** | NotionManager Setup \<version\>.exe | Installer (recommended) |
+| | NotionManager \<version\>.exe` | Portable (no install needed) |
+| **macOS (Apple Silicon)** | NotionManager-\<version\>-arm64.dmg | For M1/M2/M3 Macs |
+| **Linux** | NotionManager-\<version\>.AppImage | Universal, no install needed |
 
 > **Note**: If your system warns about an "unverified developer" or "unknown publisher," that's normal for now. Just click "Run Anyway" or "Keep" to proceed.
 

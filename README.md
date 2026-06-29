@@ -13,10 +13,11 @@ Choose the file that matches your operating system:
 
 | Platform | File | Notes |
 |----------|------|-------|
-| **Windows** | NotionManager Setup \<version\>.exe | Installer (recommended) |
-| | NotionManager \<version\>.exe` | Portable (no install needed) |
-| **macOS (Apple Silicon)** | NotionManager-\<version\>-arm64.dmg | For M1/M2/M3 Macs |
-| **Linux** | NotionManager-\<version\>.AppImage | Universal, no install needed |
+| **Windows** | NotionManager-\<version\>-win-x64-installer.exe | Installer (recommended) |
+| | NotionManager-\<version\>-win-x64-portable.exe | Portable (no install needed) |
+| **macOS** | NotionManager-\<version\>-mac-arm64.dmg  | For M1/M2/M3 Macs |
+|  | NotionManager-\<version\>-mac-x64.dmg   | For Intel CPU based Macs |
+| **Linux** | NotionManager-\<version\>-linux-x86_64.AppImage | Universal, no install needed |
 
 > **Note**: If your system warns about an "unverified developer" or "unknown publisher," that's normal for now. Just click "Run Anyway" or "Keep" to proceed.
 
@@ -30,6 +31,9 @@ Double-click the `.exe` file and follow the installation wizard.
 **macOS**  
 1. Open the `.dmg` file  
 2. Drag `NotionManager.app` into the `Applications` folder
+
+As the release has not been official signed, you may need allow to run this explicitly. Go to System Settings → Privacy & Security → Security, then click Open Anyway for NotionManager.
+After that, macOS should allow the app to run.
 
 **Linux**  
 ```bash

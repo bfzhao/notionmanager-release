@@ -36,6 +36,12 @@ Double-click the `.exe` file and follow the installation wizard.
 chmod +x NotionManager.AppImage
 ./NotionManager.AppImage
 ```
+In case you run into error on libfuse in latest ubuntu, you may need install libfuse manually at first:
+
+```bash
+sudo apt update
+sudo apt install libfuse2
+```
 
 ---
 

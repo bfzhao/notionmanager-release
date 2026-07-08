@@ -3,23 +3,37 @@
 [![GitHub release](https://img.shields.io/github/v/release/bfzhao/notionmanager-release)](https://github.com/bfzhao/notionmanager-release/releases)
 [![GitHub downloads](https://img.shields.io/github/downloads/bfzhao/notionmanager-release/total)](https://github.com/bfzhao/notionmanager-release/releases)
 
-NotionManager is a desktop tool that helps you back up, version, and offline-browse your Notion workspace.
+**NotionManager** is a secure, local-first desktop tool designed to back up, version, and 100% offline-browse your Notion workspace without breaking your data structure.
+
+
+
+> ⚡ **Why NotionManager? (The Official Export Pain)**
+> 
+> - Notion's official Markdown/CSV export **completely breaks your database relations, rollups, and linked views**.
+> - NotionManager builds a fully functional, clickable, and beautiful **offline replica** of your workspace. Your data stays 100% local, safe, and lightning-fast.
 
 ---
 
 ## 📦 Downloads
 
-Choose the file that matches your operating system:
+Click to download the latest stable Alpha build for your operating system directly:
 
-| Platform | File | Notes |
+| Platform | Recommended Installer | Alternative Option |
 |----------|------|-------|
-| **Windows** | NotionManager-\<version\>-win-x64-installer.exe | Installer (recommended) |
-| | NotionManager-\<version\>-win-x64-portable.exe | Portable (no install needed) |
-| **macOS** | NotionManager-\<version\>-mac-arm64.dmg  | For M1/M2/M3 Macs |
-|  | NotionManager-\<version\>-mac-x64.dmg   | For Intel CPU based Macs |
-| **Linux** | NotionManager-\<version\>-linux-x86_64.AppImage | Universal, no install needed |
+| **Windows** | [⬇️ Download EXE Installer](https://github.com/bfzhao/notionmanager-release/releases/latest) | [⬇️ Download Portable Zip](https://github.com/bfzhao/notionmanager-release/releases/latest) |
+| **macOS (M1/M2/M3)** | [⬇️ Download Apple Silicon DMG](https://github.com/bfzhao/notionmanager-release/releases/latest) | *For modern Macs* |
+| **macOS (Intel)** | [⬇️ Download Intel DMG](https://github.com/bfzhao/notionmanager-release/releases/latest) | *For older Macs* |
+| **Linux** | [⬇️ Download AppImage](https://github.com/bfzhao/notionmanager-release/releases/latest) | *Universal, no install needed* |
 
-> **Note**: If your system warns about an "unverified developer" or "unknown publisher," that's normal for now. Just click "Run Anyway" or "Keep" to proceed.
+> **Note**: If your system warns about an "unverified developer" or "unknown publisher," that's normal for an early Alpha. Your data never leaves your machine. Just click "Run Anyway" or "Keep" to proceed.
+
+---
+
+## 🛡️ Privacy & Security Commitments
+
+Since this tool handles your Notion workspace workspace, we take trust seriously:
+* **100% Local-First**: All data downloading, parsing, and offline caching happen entirely on your local machine.
+* **No Cloud Uploads**: We never see, collect, or upload your Notion Access Tokens or page content to any third-party servers.
 
 ---
 
@@ -32,20 +46,26 @@ Double-click the `.exe` file and follow the installation wizard.
 1. Open the `.dmg` file  
 2. Drag `NotionManager.app` into the `Applications` folder
 
-As the release has not been official signed, you may need allow to run this explicitly. Go to System Settings → Privacy & Security → Security, then click Open Anyway for NotionManager.
-After that, macOS should allow the app to run.
+*As the release has not been officially signed yet, you may need to allow it explicitly: Go to System Settings → Privacy & Security → Security, then click **Open Anyway** for NotionManager.*
 
 **Linux**  
 ```bash
 chmod +x NotionManager.AppImage
 ./NotionManager.AppImage
 ```
+
 In case you run into error on libfuse in latest ubuntu, you may need install libfuse manually at first:
 
 ```bash
 sudo apt update
 sudo apt install libfuse2
 ```
+
+---
+
+## 🎁 Early Tester Benefit
+
+As an early Alpha tester, if this tool helps secure your data, please consider leaving your contact/feedback on our [Waitlist & Feedback](https://tally.so/r/81EEaA) Form. You will automatically receive a 50% Lifetime Discount Coupon when the stable version officially launches.
 
 ---
 
